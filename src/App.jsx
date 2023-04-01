@@ -27,7 +27,7 @@ function App() {
   const getForecast = () => {
     axios
       .get(
-        `http://api.weatherapi.com/v1/forecast.json?key=434302e15ad1472c9e8120424230104&q=lagos&days=7`
+        `https://api.weatherapi.com/v1/forecast.json?key=434302e15ad1472c9e8120424230104&q=lagos&days=7`
       )
       .then((response) => {
         console.log(response.data);
